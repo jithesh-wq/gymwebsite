@@ -196,7 +196,7 @@ span {
 .aboutheader {
     grid-area: abthd;
     min-height: 200px;
-    background-color: blue;
+    display: inline-block;
 }
 
 .abt-img1 {
@@ -233,4 +233,24 @@ span {
     grid-area: abtim6;
     min-height: 200px;
     background-color: rgb(96, 197, 13);
+}
+
+.aboutheader img {
+    width: 20%;
+    margin-left: 0;
+    margin-right: 35%;
+}
+
+.aboutheader h1 {
+    color: rgb(240, 192, 0);
+    font-size: 3em;
+    margin-right: 20px;
+}
+
+.aboutheader img,
+h1 {
+    margin-top: 200px;
+    display: inline-block;
+    border: none;
+    padding: 0;
 }
