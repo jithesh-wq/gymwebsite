@@ -129,7 +129,7 @@ button a {
 
 .container-left1 {
     grid-area: img1;
-    background-color: red;
+    background-color: blue;
 }
 
 .container-right1 {
