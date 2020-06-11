@@ -3,6 +3,7 @@
 body {
     margin: 0;
     font-family: "Montserrat", sans-serif;
+    background-color: #101920ff;
 }
 
 @font-face {
@@ -95,7 +96,7 @@ button {
     width: 200px;
     height: 50px;
     pointer-events: none;
-    transition: 300ms;
+    transition: 500ms;
 }
 
 button:hover {
@@ -109,4 +110,47 @@ button a {
     color: black;
     font-weight: 600;
     pointer-events: all;
+}
+
+.grey-container {
+    margin: 0;
+}
+
+.gallery {
+    height: 150vh;
+    display: grid;
+    margin: 0;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(auto, 3);
+    grid-template-areas: "img1 desc1" "desc2 img2" "img3 desc3";
+}
+
+.container-left1 {
+    grid-area: img1;
+    background-color: red;
+}
+
+.container-right1 {
+    grid-area: desc1;
+    background-color: blue;
+}
+
+.container-left2 {
+    grid-area: desc2;
+    background-color: blue;
+}
+
+.container-right2 {
+    grid-area: img2;
+    background-color: red;
+}
+
+.container-left3 {
+    grid-area: img3;
+    background-color: red;
+}
+
+.container-right3 {
+    grid-area: desc3;
+    background-color: blue;
 }
