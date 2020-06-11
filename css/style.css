@@ -115,11 +115,10 @@ button a {
 
 .grey-container {
     margin: 0;
-    padding: 0;
 }
 
 .gallery {
-    height: 150vh;
+    min-height: 1250px;
     display: grid;
     margin: 0;
     grid-template-columns: 50% 50%;
@@ -128,28 +127,34 @@ button a {
 }
 
 .container-left1 {
+    min-height: 200px;
     grid-area: img1;
     background-color: blue;
 }
 
 .container-right1 {
+    min-height: 200px;
     grid-area: desc1;
 }
 
 .container-left2 {
+    min-height: 200px;
     grid-area: desc2;
 }
 
 .container-right2 {
+    min-height: 200px;
     grid-area: img2;
     background-color: red;
 }
 
 .container-left3 {
+    min-height: 200px;
     grid-area: img3;
-    background-color: red;
+    background-color: blue;
 }
 
 .container-right3 {
+    min-height: 200px;
     grid-area: desc3;
 }
