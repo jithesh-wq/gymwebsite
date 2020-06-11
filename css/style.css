@@ -133,12 +133,10 @@ button a {
 
 .container-right1 {
     grid-area: desc1;
-    background-color: blue;
 }
 
 .container-left2 {
     grid-area: desc2;
-    background-color: blue;
 }
 
 .container-right2 {
@@ -153,5 +151,4 @@ button a {
 
 .container-right3 {
     grid-area: desc3;
-    background-color: blue;
 }
