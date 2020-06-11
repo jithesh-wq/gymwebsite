@@ -118,6 +118,7 @@ button a {
 
 .grey-container {
     margin: 0;
+    padding: 0;
 }
 
 .gallery {
@@ -182,4 +183,54 @@ span {
     display: block;
     font-size: 3em;
     color: white;
+}
+
+.about {
+    min-height: 1250px;
+    display: grid;
+    grid-template-columns: repeat(auto, 3);
+    grid-template-rows: repeat(auto, 3);
+    grid-template-areas: "abthd abthd abthd" "abtim1 abtim2 abtim3" "abtim4 abtim5 abtim6";
+}
+
+.aboutheader {
+    grid-area: abthd;
+    min-height: 200px;
+    background-color: blue;
+}
+
+.abt-img1 {
+    grid-area: abtim1;
+    min-height: 200px;
+    background-color: red;
+}
+
+.abt-img2 {
+    grid-area: abtim2;
+    min-height: 200px;
+    background-color: rgb(46, 5, 48);
+}
+
+.abt-img3 {
+    grid-area: abtim3;
+    min-height: 200px;
+    background-color: rgb(27, 83, 5);
+}
+
+.abt-img4 {
+    grid-area: abtim4;
+    min-height: 200px;
+    background-color: rgb(217, 255, 0);
+}
+
+.abt-img5 {
+    grid-area: abtim5;
+    min-height: 200px;
+    background-color: rgb(255, 0, 128);
+}
+
+.abt-img6 {
+    grid-area: abtim6;
+    min-height: 200px;
+    background-color: rgb(96, 197, 13);
 }
