@@ -116,6 +116,12 @@ button a {
     pointer-events: all;
 }
 
+
+/* header section ends here */
+
+
+/* gallery section starts here */
+
 .grey-container {
     margin: 0;
     padding: 0;
@@ -185,6 +191,12 @@ span {
     color: white;
 }
 
+
+/* gallery section ends here */
+
+
+/* about section starts here */
+
 .about {
     min-height: 1250px;
     display: grid;
@@ -202,49 +214,63 @@ span {
 .abt-img1 {
     grid-area: abtim1;
     min-height: 200px;
-    background-color: red;
+    background: url(/images/fitness\ m.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .abt-img2 {
     grid-area: abtim2;
     min-height: 200px;
-    background-color: rgb(46, 5, 48);
+    background: url(/images/fitnssw.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .abt-img3 {
     grid-area: abtim3;
     min-height: 200px;
-    background-color: rgb(27, 83, 5);
+    background: url(/images/athlete.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .abt-img4 {
     grid-area: abtim4;
     min-height: 200px;
-    background-color: rgb(217, 255, 0);
+    background: url(/images/yoga.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .abt-img5 {
     grid-area: abtim5;
     min-height: 200px;
-    background-color: rgb(255, 0, 128);
+    background: url(/images/climbing.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .abt-img6 {
     grid-area: abtim6;
     min-height: 200px;
-    background-color: rgb(96, 197, 13);
+    background: url(/images/personal\ trainer.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .aboutheader img {
     width: 20%;
     margin-left: 0;
-    margin-right: 35%;
+    margin-right: auto;
 }
 
 .aboutheader h1 {
     color: rgb(240, 192, 0);
     font-size: 3em;
+    margin-left: 20px;
     margin-right: 20px;
+    right: 20px;
 }
 
 .aboutheader img,
