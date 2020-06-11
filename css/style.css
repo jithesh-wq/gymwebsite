@@ -54,15 +54,21 @@ nav a {
 
 nav li {
     margin: 10px;
+    transition: 100ms;
+}
+
+nav li:hover {
+    transform: scale(1.1);
 }
 
 nav .logo {
     height: 70px;
+    align-self: ;
 }
 
 .header-text {
     text-align: center;
-    margin-top: 30vh;
+    margin-top: 31vh;
 }
 
 .header-text h1 {
@@ -70,5 +76,37 @@ nav .logo {
     font-size: 5.5em;
     font-family: "OldSport", cursive;
     letter-spacing: 6px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.header-text .tagline {
+    margin-top: -10px;
+    color: white;
+    font-size: 1.5em;
     font-weight: 500;
+}
+
+button {
+    border-radius: 100px;
+    border: none;
+    background-color: rgb(240, 192, 0);
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    pointer-events: none;
+    transition: 300ms;
+}
+
+button:hover {
+    background-color: rgba(240, 192, 0, 0.9);
+}
+
+button a {
+    letter-spacing: 2px;
+    font-size: 1.7em;
+    cursor: pointer;
+    color: black;
+    font-weight: 600;
+    pointer-events: all;
 }
