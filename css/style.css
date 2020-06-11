@@ -170,12 +170,15 @@ button a {
 
 .gallery-img-description {
     color: rgb(240, 192, 0);
+    font-weight: 600;
+    letter-spacing: 0.09em;
     margin: 50px;
     line-height: 2;
     text-align: left;
 }
 
 span {
+    font-weight: 600;
     display: block;
     font-size: 3em;
     color: white;
