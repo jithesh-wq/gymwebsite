@@ -5,6 +5,11 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+@font-face {
+    font-family: "OldSport";
+    src: url(./fonts/OldSport02AthleticNcv-E0gj.ttf);
+}
+
 p {
     font-size: 0.9em;
     line-height: 1.5em;
@@ -57,11 +62,13 @@ nav .logo {
 
 .header-text {
     text-align: center;
-    margin-top: 25vh;
+    margin-top: 35vh;
 }
 
 .header-text h1 {
-    color: #fecd00ff;
-    font-size: 4em;
-    font-family: 'Faster One', cursive;
+    color: rgb(240, 192, 0);
+    font-size: 5.5em;
+    font-family: "OldSport", cursive;
+    letter-spacing: 6px;
+    font-weight: 500;
 }
