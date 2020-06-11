@@ -158,3 +158,12 @@ button a {
     min-height: 200px;
     grid-area: desc3;
 }
+
+.gallery-img-description {
+    color: rgb(240, 192, 0);
+    margin: 50px;
+}
+
+.aboutheader {
+    display: inline-block;
+}
