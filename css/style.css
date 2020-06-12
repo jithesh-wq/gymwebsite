@@ -322,7 +322,6 @@ h1 {
 }
 
 .bottom .left {
-    border-top: 1px solid white;
     grid-area: cntct;
     background-color: #101920ff;
 }
