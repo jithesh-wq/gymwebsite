@@ -284,16 +284,20 @@ h1 {
 
 .abt-img {
     margin: 1px;
+    position: relative;
 }
 
 .abt-img .img-desc {
-    margin-top: 50%;
-    width: 200px;
-    transform: rotate(-90deg);
-    font-size: 1.2em;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    font-size: 1.5em;
     color: white;
     font-weight: 600;
-    background-color: rgba(0, 0, 0, 0.5);
 }
 
 
@@ -322,12 +326,32 @@ h1 {
 }
 
 .bottom .left {
+    color: white;
+    padding: 30px;
     grid-area: cntct;
     background-color: #101920ff;
+    text-align: center;
 }
 
 .bottom .right {
-    min-height: 200px;
     grid-area: map;
     background-color: #050708;
+}
+
+.bottom .footer-font {
+    font-size: 1.1em;
+    letter-spacing: 3px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.bottom .left a {
+    color: white !important;
+}
+
+.bottom .left .terms,
+.design {
+    align-self: flex-end;
+    font-size: 1.em;
+    margin: 0;
 }

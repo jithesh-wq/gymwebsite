@@ -5,19 +5,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/132915172d.js" crossorigin="anonymous"></script>
     <title>FF-Gym</title>
 </head>
 
 <body>
     <header>
-        <div class="container">
+        <div class="container" id="home">
             <nav>
                 <ul class="nav-items">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
                     <img src="images/logo.png" alt="" class="logo">
-                    <li><a href="#">Join</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#join">Join</a></li>
                 </ul>
             </nav>
             <div class="header-text">
@@ -30,7 +31,7 @@
         </div>
     </header>
     <div class="grey-container">
-        <div class="gallery">
+        <div class="gallery" id="gallery">
             <div class="container-left1">
                 <img src="" alt="" class="gallery-img">
             </div>
@@ -53,7 +54,7 @@
                     from home.Our studios are reopening as quickly as practical, based on local conditions. Find the studio closest to you for its current status. Click here to see how we get Back to Base.Until then, let's stay strong together from home</p>
             </div>
         </div>
-        <div class="about">
+        <div class="about" id="about">
             <div class="aboutheader">
                 <img src="/images/line.png" alt="decorative lien" class="line">
                 <h1>WHAT WE DO HERE.</h1>
@@ -79,22 +80,45 @@
         </div>
     </div>
     <div class="bottom">
-        <div class="join">
+        <div class="join" id="join">
             <h1 class="join-head">ARE YOU READY TO CHANGE YOUR LIFE.?</h1><br>
             <button class="join-btn"><a href="#">JOIN NOW</a></button>
         </div>
         <div class="left">
             <img src="images/logo.png" alt="logo-ff" class="logo-footer">
             <p class="footer-font">CONTACT</p>
-            <p class="footer-font">9283537182</p>
             <ul class="social-icons">
-                <li>insta</li>
-                <li>face</li>
-                <li>whats</li>
+                <li><a href=""><i class="fab fa-instagram-square"></i></a></li>
+                <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                <li><a href=""><i class="fab fa-whatsapp-square"></i></a></li>
             </ul>
+            <p class="terms">Terms and cnditions</p>
+            <p class="design">Designed by XYZ Designs</p>
         </div>
         <div class="right">
             <div class="map">
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe width="100%" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20san%20francisco&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+
+                    </div>
+                    <style>
+                        .mapouter {
+                            margin: 0 !important;
+                            position: relative;
+                            text-align: center;
+                            height: 100%;
+                            width: 100%;
+                        }
+                        
+                        .gmap_canvas {
+                            margin: 0 !important;
+                            overflow: hidden;
+                            background: none!important;
+                            height: 100%;
+                            width: 100%;
+                        }
+                    </style>
+                </div>
             </div>
         </div>
     </div>
