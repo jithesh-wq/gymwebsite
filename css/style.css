@@ -13,7 +13,12 @@ body {
 }
 
 .hide-desktop {
-    display: none;
+    color: white;
+    font-size: 1.5em;
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    visibility: hidden;
 }
 
 @font-face {
@@ -375,4 +380,20 @@ h1 {
 
 .copy p {
     margin: 0;
+}
+
+
+/* mediaquries */
+
+@media (max-width:850px) {
+    .show-desktop {
+        visibility: hidden;
+    }
+    .hide-desktop {
+        visibility: visible;
+    }
+    body {
+        background-color: black;
+        overflow: hidden;
+    }
 }
