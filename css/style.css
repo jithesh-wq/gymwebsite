@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
 body {
     margin: 0;
     font-family: "Montserrat", sans-serif;
     background-color: #101920ff;
     /*choice2*/
-    /* background-color: #0D0D0D;  */
+    /* background-color: #0D0D0D; */
+}
+
+.hide-desktop {
+    display: none;
 }
 
 @font-face {
@@ -307,15 +316,14 @@ h1 {
 /* footer starts here */
 
 .bottom {
-    min-height: 90vh;
+    min-height: 500px;
     display: grid;
-    grid-template-rows: repeat(auto, 2);
+    grid-template-rows: 50% 50%;
     grid-template-columns: repeat(auto, 2);
-    grid-template-areas: "join join" "cntct map";
+    grid-template-areas: "join join" "cntct cntct";
 }
 
 .join {
-    background-color: #023059;
     text-align: center;
     grid-area: join;
 }
@@ -325,17 +333,14 @@ h1 {
     margin-top: 7%;
 }
 
-.bottom .left {
+.bottom .footer {
+    position: relative;
     color: white;
-    padding: 30px;
+    /* padding: 30px; */
     grid-area: cntct;
-    background-color: #101920ff;
+    /* background-color: #023059; */
+    background-color: #000000;
     text-align: center;
-}
-
-.bottom .right {
-    grid-area: map;
-    background-color: #050708;
 }
 
 .bottom .footer-font {
@@ -345,13 +350,29 @@ h1 {
     margin-top: 10px;
 }
 
-.bottom .left a {
+.bottom .footer a {
     color: white !important;
 }
 
-.bottom .left .terms,
+.bottom .footer .terms,
 .design {
-    align-self: flex-end;
     font-size: 1.em;
+    margin: 0;
+}
+
+.logo-footer {
+    margin-top: 10px;
+}
+
+.copy {
+    position: absolute;
+    bottom: 0;
+    background: white;
+    width: 100%;
+    color: black;
+    margin-top: 0;
+}
+
+.copy p {
     margin: 0;
 }
